@@ -1,0 +1,663 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:576px) and (min-width:100px){
+    /* SECTION PICTURE */
+
+
+.section-picture{
+    
+    background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(/img/TIR00369-1\(recortada\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    
+}
+
+.cont-myl{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.cont-myl img{
+    width: 50px;
+    margin: 5px;
+}
+
+.cont-logo{
+    visibility: hidden;
+}
+
+.cont-myl h1{
+    font-size: 20px;
+    padding: 5px;
+    /* background-color: rgb(61, 61, 61);
+    border-radius: 8px; */
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.cont-info-rapida{
+    margin-left: 10px;
+}
+
+.cont-info-rapida h2{
+    
+    margin: 0px;
+    font-weight: 700;
+    color: white;
+}
+
+.cont-info-rapida span{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.el-p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+/* SECOND SECTION */
+
+.sec-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+}
+
+.sec-section h2{
+
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+}
+
+.sec-section p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ec{
+    /* border: 2px solid; */
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+.false-hr{
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background-color: black;
+}
+
+/* SECTION 3 */
+
+.cont-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    
+}
+
+.cont-one{
+    text-align: end;
+}
+
+.cont-one p{
+    order: 1;
+}
+
+.cont-one img{
+    width: 50%;
+    
+}
+
+.section-3{
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3 h2{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.section-3 p{
+    color: #ffffff;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* FOOTER CONTACT */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+}
+
+footer h3{
+    color: #aaaaaa;
+    font-weight: 200;
+    font-style: italic;
+}
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer img{
+    margin-bottom: 20px;
+}
+
+
+footer div a img{
+    width: 80px;
+    padding: 10px;
+    border-radius: 35px;
+    border: none;
+    background-color: #262626;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP */
+@media screen and (min-width:993px){
+    .section-picture{
+    background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(../../img/TIR00369-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    }
+    
+    .cont-myl{
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+    } 
+
+    .cont-myl img{
+        width: 120px;
+        margin: 20px 20px 0px 20px;
+        
+        
+    }
+
+    .cont-logo{
+        
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items:al ;
+    }
+
+    .cont-logo img{
+        width: 350px;
+        position: relative;
+        top: -20px;
+        
+    }
+
+    .cont-myl h1{
+        color: #d5d5d5;
+        font-weight: 500;
+        font-size: 30px;
+        width: 400px;
+
+    }
+
+    .cont-info-rapida{
+        
+        margin-left:20px;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        
+
+    }
+
+    .cont-info-rapida div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cont-info-rapida h2{
+        margin: 0px 0px 0px 0px;
+        font-size: 70px;
+        color: #d5d5d5;
+        font-weight: bolder;
+        
+    
+    }
+
+    .cont-info-rapida span{
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        color: #fff;
+        font-size: 70px;
+        
+    }
+
+    .cont-info-rapida p{
+        color: #d5d5d5;
+        font-size: 25px;
+    }
+
+    .sec-section{
+        background-color: #fff;
+        height: 30vh;
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+    .sec-section h2{
+        height: 100%;
+        width: 100;
+    }
+
+    .cont-ef{
+        border: 2px solid;
+    }
+
+    .false-hr{
+        height: 100%;
+        width: 15px;
+        background-color: #262626;
+
+    }
+    
+    .ec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 0px 150px 0px 150px ;
+    }
+
+
+    
+    .ec p{
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+
+    .sec-section div p{
+        font-size: 20px;
+    }
+
+    .section-3{
+        height: 30vh;
+        background-color: #262626;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-3 h2{
+        color: #d5d5d5;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        text-align: end;
+    }
+
+    .cont-one p{
+        margin-top:20px ;
+        margin-right: 20px;
+        color: #d5d5d5;
+        font-size: 20px;
+    }
+
+    .cont-one{
+        display: flex;
+        justify-content: end;
+        margin:0px 150px 0px 150px ;
+        align-items: center;
+
+        
+    }
+
+    
+
+    .cont-p-one p{
+        text-align: justify;
+    }
+
+    footer{
+        display: flex;
+        background-color: #ececec;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        background-color: #262626;
+        
+    }
+
+    footer h3{
+        
+        font-size: 25px;
+        font-weight: lighter;
+        color: #fff;
+    }
+
+    footer img{
+        padding-bottom: 20px;
+    }
+
+    .cont-redes{
+        
+    }
+
+    .cont-redes a img{
+        width: 50px;
+        margin: 10px;
+    }
+
+    footer div a img{
+    }
+
+    .logo{
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET */
+
+@media screen and (min-width: 577px) and (max-width:996px){
+    .section-picture{
+        background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(/img/TIR00369-1\(recortada\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+
+    .cont-myl{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .cont-myl h1{
+        color: #fff;
+        font-weight: bolder;
+    }
+
+    .cont-myl img{
+        width: 20%;
+        margin: 20px;
+    }
+
+    .cont-logo{
+        visibility: hidden;
+    }
+
+    .cont-info-rapida{
+        margin-left: 30px;
+    }
+
+    .cont-info-rapida h2{
+        color: #fff;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+
+    .cont-info-rapida span{
+        font-size: 35px;
+        font-weight: 500;
+        color: #000;
+        font-style: italic;
+    }
+
+    .cont-info-rapida p{
+        font-size: 25px;
+        color: #d5d5d5;
+    }
+
+    .sec-section{
+        background-color: #fff;
+        padding: 50px 20px 50px 20px;
+
+    }
+
+    .sec-section div h2{
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    .p-exec{
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    .section-3{
+        background-color: #262626;
+        padding: 50px 20px 50px 20px;
+        
+    }
+
+
+    .section-3 div h2{
+        color: #fff;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+
+    .cont-p-one{
+        color: #d5d5d5;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .cont-one{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont-one img{
+        order: 0;
+        width: 30%;
+    }
+
+    
+
+    .cont-one p{
+        order: 1;
+        font-size: 25px;
+        text-align: end;
+        text-align: justify;
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #262626;
+        
+        padding-bottom: 80px;
+        border: none;
+        outline: none;
+    }
+
+
+    footer p{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+
+    footer h3{
+        color:#aaaaaa;
+        font-size: 35px;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    .cont-redes a img{
+        width: 80px;
+        margin: 20px;
+        
+        
+        
+    }
+
+    
+
+
+
+
+
+
+
+}

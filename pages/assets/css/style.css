@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:576px) and (min-width:100px){
+    /* SECTION PICTURE */
+
+
+.section-picture{
+    
+    background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(/img/TIR00369-1\(recortada\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    
+}
+
+.cont-myl{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.cont-myl img{
+    width: 50px;
+    margin: 5px;
+}
+
+.cont-myl h1{
+    font-size: 15px;
+    padding: 5px;
+    /* background-color: rgb(61, 61, 61);
+    border-radius: 8px; */
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.cont-logo img{
+    width: 0px;
+}
+
+.cont-info-rapida{
+    margin-left: 10px;
+}
+
+.cont-info-rapida h2{
+    font-weight: 700;
+    color: white;
+    margin: 0px;
+}
+
+.cont-info-rapida span{
+    color: #fff;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.el-p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+
+/* SECOND SECTION */
+
+.sec-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+}
+
+.sec-section h2{
+
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+}
+
+.sec-section p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ec{
+    /* border: 2px solid; */
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.ec img{
+    width: 150px;
+}
+
+.ec p{
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+
+.false-hr{
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background-color: black;
+}
+
+/* SECTION 3 */
+
+.cont-one{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 90%;
+}
+
+.cont-one img{
+    width: 150px;
+}
+
+.cont-one{
+    text-align: end;
+}
+
+.cont-one p{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    font-size: 10px;
+}
+
+.section-3{
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3 h2{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.section-3 p{
+    color: #ffffff;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* FOOTER CONTACT */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    background-color: #dade73;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23262626' fill-opacity='0.14' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer img{
+    margin-bottom: 20px;
+}
+
+
+footer div a img{
+    padding: 10px;
+    border-radius: 35px;
+    border: none;
+    background-color: #d5d5d5;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP */
+@media screen and (min-width:993px){
+    .section-picture{
+    background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(../../img/TIR00369-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    }
+    
+    .cont-myl{
+        /* border: 2px solid; */
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+    } 
+
+    .cont-myl img{
+        width: 120px;
+        margin: 20px 20px 0px 20px;
+        
+        
+    }
+
+    .cont-logo{
+        
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items:al ;
+    }
+
+    .cont-logo img{
+        width: 350px;
+        position: relative;
+        top: -20px;
+        
+    }
+
+    .cont-myl h1{
+        color: #fff;
+        font-weight: 500;
+        font-size: 30px;
+        width: 400px;
+
+    }
+
+    .cont-info-rapida{
+        
+        margin-left:20px;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        
+
+    }
+
+    .cont-info-rapida div{
+        border: 2px solid yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cont-info-rapida h2{
+        margin: 0px 0px 0px 0px;
+        font-size: 70px;
+        color: #fff;
+        font-weight: bolder;
+        
+    
+    }
+
+    .cont-info-rapida span{
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        color: #fff;
+        font-size: 70px;
+        
+    }
+
+    .cont-info-rapida p{
+        color: #d5d5d5;
+        font-size: 25px;
+    }
+
+    .sec-section{
+        background-color: #fff;
+        height: 30vh;
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+    .sec-section h2{
+        height: 100%;
+        width: 100;
+    }
+
+    .cont-ef{
+        border: 2px solid;
+    }
+
+    .false-hr{
+        height: 100%;
+        width: 15px;
+        background-color: #262626;
+
+    }
+    
+    .ec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin: 0px 150px 0px 150px ;
+    }
+
+
+    
+    .ec p{
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+
+    .sec-section div p{
+        font-size: 20px;
+    }
+
+    .section-3{
+        height: 30vh;
+        background-color: #262626;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-3 h2{
+        color: #d5d5d5;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        text-align: end;
+    }
+
+    .cont-one p{
+        margin-top:20px ;
+        margin-right: 20px;
+        color: #d5d5d5;
+        font-size: 20px;
+    }
+
+    .cont-one{
+        display: flex;
+        justify-content: end;
+        margin:0px 150px 0px 150px ;
+        align-items: center;
+
+        
+    }
+
+    
+
+    .cont-p-one p{
+        text-align: justify;
+    }
+
+    footer{
+        display: flex;
+        background-color: #ececec;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+        background-color: #262626;
+        
+    }
+
+    footer h3{
+        
+        font-size: 25px;
+        font-weight: lighter;
+        color: #fff;
+    }
+
+    footer img{
+        padding-bottom: 20px;
+    }
+
+    .cont-redes{
+        
+    }
+
+    .cont-redes a img{
+        width: 50px;
+        margin: 10px;
+    }
+
+    footer div a img{
+    }
+
+    .logo{
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET */
+
+@media screen and (min-width: 577px) and (max-width:996px){
+    .section-picture{
+        background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(/img/TIR00369-1\(recortada\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+
+    .cont-myl{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .cont-myl h1{
+        color: #fff;
+        font-weight: bolder;
+    }
+
+    .cont-myl img{
+        margin: 20px;
+    }
+
+    .cont-info-rapida{
+        margin-left: 30px;
+    }
+
+    .cont-info-rapida h2{
+        color: #fff;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .cont-info-rapida p{
+        font-size: 25px;
+        color: #d5d5d5;
+    }
+
+    .sec-section{
+        background-color: #fff;
+        padding: 50px 0px 50px 0px;
+
+    }
+
+    .sec-section div h2{
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    .p-exec{
+        font-size: 25px;
+    }
+
+    .section-3{
+        background-color: #262626;
+        padding: 50px 0px 50px 0px;
+    }
+
+
+    .section-3 div h2{
+        color: #fff;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+    .p-exec{
+        text-align: justify;
+    }
+
+    .cont-p-one{
+        color: #d5d5d5;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .cont-one h2{
+        text-align: end;
+    }
+
+    .cont-p-one p{
+        font-size: 25px;
+        text-align: end;
+        text-align: justify;
+        font-weight: bolder;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #262626;
+        
+        padding-bottom: 80px;
+        border: none;
+        outline: none;
+    }
+
+
+    footer p{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+
+    .cont-redes a img{
+        padding: 20px;
+        background-color: #aaaaaa;
+        border-radius: 35px;
+        margin: 10px;
+    }
+
+    
+
+
+
+
+
+
+
+}
