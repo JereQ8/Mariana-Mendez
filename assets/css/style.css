@@ -16,7 +16,7 @@ body{
 
 .section-picture{
     
-    background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(/img/TIR00369-1\(recortada\).jpg);
+    background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(img/TIR00369-1\(recortada\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 45vh;
@@ -511,7 +511,7 @@ footer div a img{
 
 @media screen and (min-width: 577px) and (max-width:996px){
     .section-picture{
-        background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(/img/TIR00369-1\(recortada\).jpg);
+        background: linear-gradient(to left, rgba(255,255,255,0), rgb(40, 40, 40)), url(img/TIR00369-1\(recortada\).jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 60vh;
